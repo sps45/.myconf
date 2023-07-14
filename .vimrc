@@ -30,10 +30,10 @@ set wrap linebreak
 " per the dev's recommendation
 set updatetime=100
 
-" Enter git package X/X url tail to install using vim-plug
-call plug#begin()
-Plug 'ascii-boxes/boxes'
-call plug#end()
+" Uncomment and enter github package X/X url tail to install plugins using vim-plug
+" call plug#begin()
+" Plug 'ascii-boxes/boxes'
+" call plug#end()
 
 " Set 'jj' to Esc when in insert mode
 imap jj <Esc>
