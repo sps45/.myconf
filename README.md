@@ -1,9 +1,4 @@
- ___________________
-/\                  \
-\_|.myconf overview |
-  |                 |
-  |   ______________|_
-   \_/________________/
+###./myconf
 
 Commands used:
 
@@ -24,8 +19,8 @@ Then any file within the home folder can be versioned with normal commands like:
 
 This setup can be replicated on another machine using the commands below:
 
-git clone --separate-git-dir=$HOME/.myconf /path/to/repo $HOME/myconf-tmp
-rm -r ~/myconf-tmp/
-alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
+    git clone --separate-git-dir=$HOME/.myconf /path/to/repo $HOME/myconf-tmp
+    rm -r ~/myconf-tmp/
+    alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
 
 Source: https://tinyurl.com/ywsf9yay
